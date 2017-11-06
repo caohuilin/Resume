@@ -177,6 +177,9 @@ body {
         .heading {
             display: flex;
             align-content: center;
+            @media screen and (max-width: 780px) {
+              flex-direction: column;
+            }
             .bold {
                 display: block;
             }
@@ -185,7 +188,7 @@ body {
             }
             .source {
                 margin: 0 10px;
-                @media screen and (max-width: 380px) {
+                @media screen and (max-width: 780px) {
                     display: none;
                 }
             }
@@ -297,6 +300,12 @@ body {
     justify-content: space-between;
     line-height: 60px;
     color: #000;
+    .copyright-download {
+      display: none;
+      @media screen and (max-width: 1256px) {
+        display: flex;
+    }
+    }
     p {
         margin: 0;
     }

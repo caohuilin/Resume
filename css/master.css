@@ -245,6 +245,11 @@ body {
   display: flex;
   align-content: center;
 }
+@media screen and (max-width: 780px) {
+  .term .main .heading {
+    flex-direction: column;
+  }
+}
 .term .main .heading .bold {
   display: block;
 }
@@ -254,7 +259,7 @@ body {
 .term .main .heading .source {
   margin: 0 10px;
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 780px) {
   .term .main .heading .source {
     display: none;
   }
@@ -362,6 +367,14 @@ body {
   justify-content: space-between;
   line-height: 60px;
   color: #000;
+}
+.copyright .copyright-download {
+  display: none;
+}
+@media screen and (max-width: 1256px) {
+  .copyright .copyright-download {
+    display: flex;
+  }
 }
 .copyright p {
   margin: 0;
