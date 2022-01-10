@@ -1,3 +1,5 @@
-# 简历源码
+## 简历
 
-https://hi-hi.cn/chlresume/
+最新版本 https://github.com/caohuilin/Resume2020
+
+最新在线地址 https://resume.caohuilin.com/
